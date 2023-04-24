@@ -2,21 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+body, header{
+    min-width: 680px;
 }
 header{
-    height: 100px;
+    height: 80px;
     width: 100%;
-    background-color: black;
+    /*background-color: black;*/
+    background: rgb(0,0,13);
+background: linear-gradient(175deg, rgba(0,0,13,0.8463760504201681) 100%, rgba(12,9,121,0.43461134453781514) 100%);
     display:flex;
+}
+h1{
+    margin: 40px auto auto 40px;
+    color:white;
+    font-size:bold;
 }
 .poluHeader{
     height: 100%;
     width: 50%;
 }
 .naVi{
-    width:400px;
-    height:50px;
-    margin:40px 0 auto 70px;
+    width:300px;
+    height:30px;
+    margin:40px 40px auto auto;
     /*border:1px solid white;*/
 }
 .naVismall{
@@ -25,12 +36,13 @@ header{
    list-style-type:none;
 }
 .naVismall>li{
-    height:50px;
+    height:30px;
     width:90px;
     /*border:1px solid white;*/
     text-align:center;
     border-top:5px solid white;
     border-radius:5px 5px 0 0;
+    background-color: #001123;
 }
 li>a{
    color:white; 
