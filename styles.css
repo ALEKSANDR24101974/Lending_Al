@@ -60,11 +60,15 @@ li>a{
     min-width: 1000px;
 }
 #Winleft{
-    width: 25%;
+    /*display:block;*/
+    width: 20%;
     height: 670px;
     background-color: white;
     margin: 15px 5px 15px 15px;
    border-radius:6px 0 0 6px;
+    padding:10px;
+    overflow-x:auto;
+    
 }
 #Wincenter{
     width: 50%;
@@ -74,7 +78,7 @@ li>a{
     padding: 7px;
 }
 #Winright{
-    width: 25%;
+    width: 30%;
     height: 670px;
     background-color: white;
     margin: 15px 15px 15px 5px;
@@ -85,14 +89,27 @@ footer{
     height: 200px;
     background-color: #001123;
     display: block;
+    text-align: center;
 }
 address{
-    color: white;
-}
-#footerAdd{
     display: block;
-    /*margin: 30px;*/
+    color: white;
+   /*? margin-top: 15px;*/
+}
+address>a{
+    color:white;
 }
 .kobuleti{
     text-align: center;
+}
+.kobuletiLive{
+    display:block;
+    width:330px;
+    height:390px;
+   /* border:1px solid;*/
+      margin-top:7px;
+    margin-left:auto;
+    margin-right:auto;
+    
+    
 }
