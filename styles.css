@@ -17,19 +17,19 @@ background: linear-gradient(175deg, rgba(0,0,13,0.8463760504201681) 100%, rgba(1
     border-bottom: 2px white solid;
 }
 h1{
-    margin: 40px auto auto 40px;
-    color:#001123;
+    margin: 40px auto auto 120px;
+    color:white;
     font-size:bold;
 }
-h1:hover{
-    color:red;
-}
+/*h1:hover{
+    color:red;*/
+
 .poluHeader{
     height: 100%;
     width: 50%;
 }
 .naVi{
-    width:300px;
+    width:500px;
     height:30px;
     margin:40px 40px auto auto;
     /*border:1px solid white;*/
@@ -41,16 +41,17 @@ h1:hover{
 }
 .naVismall>li{
     height:30px;
-    width:90px;
+    width:120px;
     /*border:1px solid white;*/
     text-align:center;
     border-top:5px solid white;
     border-radius:5px 5px 0 0;
     background-color: #001123;
-    box-shadow: 2px 2px 4px white;
+    box-shadow: 1px 1px 2px white;
 }
 li>a{
    color:white; 
+    font-weight:bold;
 }
 /*osnovnoe_okno*/
 #allWin{
@@ -88,7 +89,7 @@ li>a{
    border-radius:0 6px 6px 0;
     padding:10px;
     overflow:auto;
-    display: block;
+    /*display: block;*/
 }
 footer{
     width: 100%;
@@ -124,4 +125,28 @@ h3{
 }
 #frameRight{
     margin: 0 auto;
+}
+li:hover{
+    border-top-color:#00FFFF;
+}
+li:active{
+    box-shadow:2px 2px 10px #FFFF00;
+}
+p, blockquote{
+font-size:1.2rem;  
+}
+table{
+    width: 360px;
+}
+#tableR{
+    margin: 18px 10px;
+}
+.list,td{
+    text-align: center;
+}
+caption{
+    margin-bottom: 8px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: underline;
 }
