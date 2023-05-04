@@ -137,6 +137,7 @@ font-size:1.2rem;
 }
 table{
     width: 360px;
+    background: #f0f0f0;
 }
 .tableR{
     margin: 18px 10px;
@@ -149,4 +150,12 @@ caption{
     font-size: 1.3rem;
     font-weight: bold;
     text-decoration: underline;
+}
+.asideR{
+    float: right;
+    width: 100px;
+   /* margin-left: 50px;*/
+    background: #f0f0f0;
+    padding: 10px;
+    margin: 42px auto;
 }
